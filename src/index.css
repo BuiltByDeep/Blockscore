@@ -1,0 +1,44 @@
+@import "tailwindcss";
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap');
+
+@theme {
+  --color-primary: #002C54;
+  --color-primary-dark: #001a33;
+  --color-primary-light: #003d73;
+  --color-accent: #C5001A;
+  --color-accent-dark: #a00015;
+  --color-accent-light: #e6001f;
+  --color-cream: #FDF6F6;
+  --color-secondary: #6b7280;
+  --color-dark: #0f172a;
+  --color-surface: #f9fafb;
+  --color-border: #e5e7eb;
+}
+
+body {
+  margin: 0;
+  font-family: 'Inter', sans-serif;
+  background-color: #ffffff;
+  color: #111827;
+  min-height: 100vh;
+}
+
+/* Meme fonts */
+@font-face {
+  font-family: 'Impact';
+  src: local('Impact');
+}
+
+* {
+  box-sizing: border-box;
+}
+
+/* Smooth transitions */
+button, a {
+  transition: all 0.2s ease;
+}
+
+/* Smooth scroll */
+html {
+  scroll-behavior: smooth;
+}
